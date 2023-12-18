@@ -86,7 +86,10 @@ display: block;
 .layo:hover .left{
   display: block;
   }
-
+  main{
+    height: 600px;
+    background-image:conic-gradient( green,yellow, red);
+}
 
 footer{
     background-image:linear-gradient(blue 20%, yellow 80%) 
