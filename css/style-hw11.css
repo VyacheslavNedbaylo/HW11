@@ -42,9 +42,13 @@ header{
   text-align: center;
   font-size: 20px;
   white-space: nowrap;
-  
-  
+  position: relative;
 }
+.svg-menu1{
+    background-image: url(../img/home-1-svgrepo-com.svg);
+    top:20%; 
+    left:-5px;
+   }
 .menu li a{
 display: block;    
 text-decoration: none;
@@ -86,11 +90,10 @@ display: block;
 .layo:hover .left{
   display: block;
   }
-  main{
+ main{
     height: 600px;
     background-image:conic-gradient( green,yellow, red, purple);
 }
-
 footer{
     background-image:linear-gradient(blue 20%, yellow 80%) 
 }
@@ -103,7 +106,26 @@ footer{
     .sn a{
       display: block;
       line-height: 29px;
+      width: 29px;
+      height: 29px;
+          
     }
+.sn1{
+    background-image:url(../img/logo-facebook-svgrepo-com.svg );
+    }
+.sn2{
+    background-image:url(../img/instagram.svg)
+}
+.sn3{
+     background-image:url(../img/telegram.svg)
+    }
+.sn4{
+    background-image:url(../img/viber.svg)
+}
+.sn1,.sn2,.sn3,.sn4 {
+    background-size: 29px 29px;
+    background-position:center;
+}
     .c{
     text-align: center;
     font-family: 'Architects Daughter';
