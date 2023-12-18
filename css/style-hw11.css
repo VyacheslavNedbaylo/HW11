@@ -43,21 +43,46 @@ header{
   font-size: 20px;
   white-space: nowrap;
   position: relative;
+  margin-left: 20px;
 }
-.svg-menu1{
-    background-image: url(../img/home-1-svgrepo-com.svg);
-    top:20%; 
-    left:-5px;
-   }
 .menu li a{
-display: block;    
-text-decoration: none;
-font-weight: 900;
-color: rgb(20, 16, 16);
-padding: 10px 20px;
-background-color: orange;
-
+    display: block;    
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(20, 16, 16);
+    padding: 10px 20px 10px 30px;
+    background-color: orange;
 }
+.m1,.m2,.m3,.m4{
+    background-size: 22px 22px;
+    background-position:5px 8px;
+    background-repeat: no-repeat;
+}
+.m1{
+    background-image: url(../img/home-1-svgrepo-com.svg);
+        }
+.m2{
+    background-image:url(../img/gallery-wide-svgrepo-com.svg) 
+}
+.m3{
+    text-align: left;
+    background-position:174px 8px;
+    background-image:url(../img/arrow-down-svgrepo-com.svg)          
+}
+.m4{
+    background-position:20px 8px;
+    background-image:url(../img/arrow-left-svgrepo-com.svg) 
+   }
+
+
+
+
+
+
+
+
+
+
 .menu > li{
   position: relative;
 }
